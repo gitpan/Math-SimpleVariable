@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 use fields (
    'name',  # a string with the name of the variable
    'value', # the numerical value of the variable
@@ -176,6 +176,11 @@ come in useful :-). evaluate() is still there for reasons of orthogonality.
 =head1 SEE ALSO
 
 perl(1).
+
+=head1 VERSION
+
+This is CVS $Revision: 1.6 $ of Math::Simplevariable,
+last edited at $Date: 2001/10/31 12:38:39 $.
 
 =head1 AUTHOR
 
